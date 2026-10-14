@@ -1,0 +1,8 @@
+# Nmap 7.991 scan initiated Sun Oct 11 13:41:32 2026 as: nmap -n -T3 -sS -sV -O --reason --script default,safe -iL live-hosts.txt -oA home-network-standard
+Host: 192.168.8.1 ()	Status: Up
+Host: 192.168.8.1 ()	Ports: 53/open/tcp//tcpwrapped///, 80/open/tcp//http//Huawei router http admin/, 443/open/tcp//ssl|http//Huawei router http admin/	Ignored State: closed (997)	Seq Index: 264	IP ID Seq: All zeros
+Host: 192.168.8.65 ()	Status: Up
+Host: 192.168.8.65 ()	Ports: 	Ignored State: filtered (1000)
+Host: 192.168.8.3 ()	Status: Up
+Host: 192.168.8.3 ()	Ports: 	Ignored State: filtered (1000)
+# Nmap done at Sun Oct 11 13:47:36 2026 -- 3 IP addresses (3 hosts up) scanned in 364.39 seconds

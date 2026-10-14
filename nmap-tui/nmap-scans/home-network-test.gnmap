@@ -1,0 +1,5 @@
+# Nmap 7.991 scan initiated Sun Oct 11 13:09:50 2026 as: nmap -sn -n -oA home-network-test 192.168.8.0/24
+Host: 192.168.8.1 ()	Status: Up
+Host: 192.168.8.65 ()	Status: Up
+Host: 192.168.8.3 ()	Status: Up
+# Nmap done at Sun Oct 11 13:09:52 2026 -- 256 IP addresses (3 hosts up) scanned in 1.89 seconds

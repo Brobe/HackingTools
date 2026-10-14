@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.991 scan initiated Sun Oct 11 13:09:50 2026 as: nmap -sn -n -oA home-network-test 192.168.8.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -n -oA home-network-test 192.168.8.0/24" start="1791716990" startstr="Sun Oct 11 13:09:50 2026" version="7.991" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.8.1" addrtype="ipv4"/>
+<address addr="62:54:93:88:63:96" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<times srtt="435" rttvar="3760" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.8.65" addrtype="ipv4"/>
+<address addr="1C:B7:2C:74:79:C8" addrtype="mac" vendor="ASUSTek Computer"/>
+<hostnames>
+</hostnames>
+<times srtt="186" rttvar="1593" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.8.3" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1791716992" timestr="Sun Oct 11 13:09:52 2026" summary="Nmap done at Sun Oct 11 13:09:52 2026; 256 IP addresses (3 hosts up) scanned in 1.89 seconds" elapsed="1.89" exit="success"/><hosts up="3" down="253" total="256"/>
+</runstats>
+</nmaprun>
